@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!--
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/HediffDef[defName="PsychicAmplifier"]</xpath>
+		<value>
+			<priceOffset>500</priceOffset>
+		</value>
+	</Operation>
+	-->
+	<Operation Class="XmlExtensions.UseSetting">
+		<modId>PsylinkMarketValue</modId> <!--String that XML Extensions can identify your mod with-->
+		<key>psylinkcost</key> <!--Key to identify the setting (only used internally, invisible to user)-->
+		<defaultValue>500</defaultValue> <!--What you want the default value of the setting to be-->
+		<apply>
+			<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/HediffDef[defName="PsychicAmplifier"]</xpath>
+				<value>
+					<priceOffset>{psylinkcost}</priceOffset> <!--Use the setting's value-->
+				</value>
+			</Operation>
+		</apply>
+	</Operation>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</Patch>

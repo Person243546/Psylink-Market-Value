@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<XmlExtensions.SettingsMenuDef>
+		<defName>PsylinkMV</defName> <!--Can be anything unique with no periods-->
+		<modId>PsylinkMarketValue</modId> <!--MUST be the same as the one entered earlier-->    
+		<label>Psylink Market Value</label> <!-- This is what displays as your mod's name-->    
+		<settings> <!--This is where you define what settings are in the settings menu-->
+			<li Class="XmlExtensions.Setting.Textbox"> <!--Can use any class from XmlExtensions.Setting-->
+				<key>psylinkcost</key>
+				<label>Market Value per Psylink Level</label>
+				<defaultValue>500</defaultValue> <!--Can generally skip, but good to include again to avoid possible bugs-->
+			</li>
+		</settings>
+	</XmlExtensions.SettingsMenuDef>
+	
+</Defs>

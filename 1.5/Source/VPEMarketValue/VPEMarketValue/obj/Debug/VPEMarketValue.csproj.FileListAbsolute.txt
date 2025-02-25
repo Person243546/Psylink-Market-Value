@@ -1,0 +1,4 @@
+C:\GOG Games\RimWorld\Mods\VPE Marketvalue\1.5\Source\VPEMarketValue\VPEMarketValue\obj\Debug\VPEMarketValue.csproj.AssemblyReference.cache
+C:\GOG Games\RimWorld\Mods\VPE Marketvalue\1.5\Source\VPEMarketValue\VPEMarketValue\obj\Debug\VPEMarketValue.csproj.CoreCompileInputs.cache
+C:\GOG Games\RimWorld\Mods\VPE Marketvalue\1.5\Assemblies\PsylinkMarketValue.dll
+C:\GOG Games\RimWorld\Mods\VPE Marketvalue\1.5\Source\VPEMarketValue\VPEMarketValue\obj\Debug\PsylinkMarketValue.dll
